@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2AD1D723D77A4A00572114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AD1D623D77A4A00572114 /* AppDelegate.swift */; };
+		9F2AD1D923D77A4A00572114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AD1D823D77A4A00572114 /* ViewController.swift */; };
+		9F2AD1DC23D77A4A00572114 /* Jack_Compiler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AD1DA23D77A4A00572114 /* Jack_Compiler.xcdatamodeld */; };
+		9F2AD1DE23D77A5400572114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2AD1DD23D77A5400572114 /* Assets.xcassets */; };
+		9F2AD1E123D77A5400572114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2AD1DF23D77A5400572114 /* Main.storyboard */; };
+		9F2AD1ED23D77A5500572114 /* Jack_CompilerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AD1EC23D77A5500572114 /* Jack_CompilerTests.swift */; };
+		9F2AD1F823D77A5500572114 /* Jack_CompilerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AD1F723D77A5500572114 /* Jack_CompilerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2AD1E923D77A5500572114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2AD1CB23D77A4A00572114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2AD1D223D77A4A00572114;
+			remoteInfo = "Jack Compiler";
+		};
+		9F2AD1F423D77A5500572114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2AD1CB23D77A4A00572114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2AD1D223D77A4A00572114;
+			remoteInfo = "Jack Compiler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F2AD1D323D77A4A00572114 /* Jack Compiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Compiler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AD1D623D77A4A00572114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F2AD1D823D77A4A00572114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F2AD1DB23D77A4A00572114 /* Jack_Compiler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jack_Compiler.xcdatamodel; sourceTree = "<group>"; };
+		9F2AD1DD23D77A5400572114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F2AD1E023D77A5400572114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F2AD1E223D77A5400572114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2AD1E323D77A5400572114 /* Jack_Compiler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jack_Compiler.entitlements; sourceTree = "<group>"; };
+		9F2AD1E823D77A5500572114 /* Jack CompilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack CompilerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AD1EC23D77A5500572114 /* Jack_CompilerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_CompilerTests.swift; sourceTree = "<group>"; };
+		9F2AD1EE23D77A5500572114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2AD1F323D77A5500572114 /* Jack CompilerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack CompilerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AD1F723D77A5500572114 /* Jack_CompilerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_CompilerUITests.swift; sourceTree = "<group>"; };
+		9F2AD1F923D77A5500572114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2AD1D023D77A4A00572114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1E523D77A5500572114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1F023D77A5500572114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2AD1CA23D77A4A00572114 = {
+			isa = PBXGroup;
+			children = (
+				9F2AD1D523D77A4A00572114 /* Jack Compiler */,
+				9F2AD1EB23D77A5500572114 /* Jack CompilerTests */,
+				9F2AD1F623D77A5500572114 /* Jack CompilerUITests */,
+				9F2AD1D423D77A4A00572114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2AD1D423D77A4A00572114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AD1D323D77A4A00572114 /* Jack Compiler.app */,
+				9F2AD1E823D77A5500572114 /* Jack CompilerTests.xctest */,
+				9F2AD1F323D77A5500572114 /* Jack CompilerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2AD1D523D77A4A00572114 /* Jack Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AD1D623D77A4A00572114 /* AppDelegate.swift */,
+				9F2AD1D823D77A4A00572114 /* ViewController.swift */,
+				9F2AD1DD23D77A5400572114 /* Assets.xcassets */,
+				9F2AD1DF23D77A5400572114 /* Main.storyboard */,
+				9F2AD1E223D77A5400572114 /* Info.plist */,
+				9F2AD1E323D77A5400572114 /* Jack_Compiler.entitlements */,
+				9F2AD1DA23D77A4A00572114 /* Jack_Compiler.xcdatamodeld */,
+			);
+			path = "Jack Compiler";
+			sourceTree = "<group>";
+		};
+		9F2AD1EB23D77A5500572114 /* Jack CompilerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AD1EC23D77A5500572114 /* Jack_CompilerTests.swift */,
+				9F2AD1EE23D77A5500572114 /* Info.plist */,
+			);
+			path = "Jack CompilerTests";
+			sourceTree = "<group>";
+		};
+		9F2AD1F623D77A5500572114 /* Jack CompilerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AD1F723D77A5500572114 /* Jack_CompilerUITests.swift */,
+				9F2AD1F923D77A5500572114 /* Info.plist */,
+			);
+			path = "Jack CompilerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2AD1D223D77A4A00572114 /* Jack Compiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AD1FC23D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack Compiler" */;
+			buildPhases = (
+				9F2AD1CF23D77A4A00572114 /* Sources */,
+				9F2AD1D023D77A4A00572114 /* Frameworks */,
+				9F2AD1D123D77A4A00572114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack Compiler";
+			productName = "Jack Compiler";
+			productReference = 9F2AD1D323D77A4A00572114 /* Jack Compiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F2AD1E723D77A5500572114 /* Jack CompilerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AD1FF23D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack CompilerTests" */;
+			buildPhases = (
+				9F2AD1E423D77A5500572114 /* Sources */,
+				9F2AD1E523D77A5500572114 /* Frameworks */,
+				9F2AD1E623D77A5500572114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2AD1EA23D77A5500572114 /* PBXTargetDependency */,
+			);
+			name = "Jack CompilerTests";
+			productName = "Jack CompilerTests";
+			productReference = 9F2AD1E823D77A5500572114 /* Jack CompilerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F2AD1F223D77A5500572114 /* Jack CompilerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AD20223D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack CompilerUITests" */;
+			buildPhases = (
+				9F2AD1EF23D77A5500572114 /* Sources */,
+				9F2AD1F023D77A5500572114 /* Frameworks */,
+				9F2AD1F123D77A5500572114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2AD1F523D77A5500572114 /* PBXTargetDependency */,
+			);
+			name = "Jack CompilerUITests";
+			productName = "Jack CompilerUITests";
+			productReference = 9F2AD1F323D77A5500572114 /* Jack CompilerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2AD1CB23D77A4A00572114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ted Kostylev";
+				TargetAttributes = {
+					9F2AD1D223D77A4A00572114 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9F2AD1E723D77A5500572114 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9F2AD1D223D77A4A00572114;
+					};
+					9F2AD1F223D77A5500572114 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9F2AD1D223D77A4A00572114;
+					};
+				};
+			};
+			buildConfigurationList = 9F2AD1CE23D77A4A00572114 /* Build configuration list for PBXProject "Jack Compiler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2AD1CA23D77A4A00572114;
+			productRefGroup = 9F2AD1D423D77A4A00572114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2AD1D223D77A4A00572114 /* Jack Compiler */,
+				9F2AD1E723D77A5500572114 /* Jack CompilerTests */,
+				9F2AD1F223D77A5500572114 /* Jack CompilerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2AD1D123D77A4A00572114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AD1DE23D77A5400572114 /* Assets.xcassets in Resources */,
+				9F2AD1E123D77A5400572114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1E623D77A5500572114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1F123D77A5500572114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2AD1CF23D77A4A00572114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AD1DC23D77A4A00572114 /* Jack_Compiler.xcdatamodeld in Sources */,
+				9F2AD1D923D77A4A00572114 /* ViewController.swift in Sources */,
+				9F2AD1D723D77A4A00572114 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1E423D77A5500572114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AD1ED23D77A5500572114 /* Jack_CompilerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AD1EF23D77A5500572114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AD1F823D77A5500572114 /* Jack_CompilerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2AD1EA23D77A5500572114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2AD1D223D77A4A00572114 /* Jack Compiler */;
+			targetProxy = 9F2AD1E923D77A5500572114 /* PBXContainerItemProxy */;
+		};
+		9F2AD1F523D77A5500572114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2AD1D223D77A4A00572114 /* Jack Compiler */;
+			targetProxy = 9F2AD1F423D77A5500572114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F2AD1DF23D77A5400572114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2AD1E023D77A5400572114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2AD1FA23D77A5500572114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2AD1FB23D77A5500572114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F2AD1FD23D77A5500572114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Jack Compiler/Jack_Compiler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Jack Compiler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-Compiler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F2AD1FE23D77A5500572114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Jack Compiler/Jack_Compiler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Jack Compiler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-Compiler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9F2AD20023D77A5500572114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				INFOPLIST_FILE = "Jack CompilerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-CompilerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack Compiler.app/Contents/MacOS/Jack Compiler";
+			};
+			name = Debug;
+		};
+		9F2AD20123D77A5500572114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				INFOPLIST_FILE = "Jack CompilerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-CompilerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jack Compiler.app/Contents/MacOS/Jack Compiler";
+			};
+			name = Release;
+		};
+		9F2AD20323D77A5500572114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				INFOPLIST_FILE = "Jack CompilerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-CompilerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Jack Compiler";
+			};
+			name = Debug;
+		};
+		9F2AD20423D77A5500572114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G7SK84425W;
+				INFOPLIST_FILE = "Jack CompilerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tedspikes.Jack-CompilerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Jack Compiler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2AD1CE23D77A4A00572114 /* Build configuration list for PBXProject "Jack Compiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AD1FA23D77A5500572114 /* Debug */,
+				9F2AD1FB23D77A5500572114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AD1FC23D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack Compiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AD1FD23D77A5500572114 /* Debug */,
+				9F2AD1FE23D77A5500572114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AD1FF23D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack CompilerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AD20023D77A5500572114 /* Debug */,
+				9F2AD20123D77A5500572114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AD20223D77A5500572114 /* Build configuration list for PBXNativeTarget "Jack CompilerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AD20323D77A5500572114 /* Debug */,
+				9F2AD20423D77A5500572114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F2AD1DA23D77A4A00572114 /* Jack_Compiler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F2AD1DB23D77A4A00572114 /* Jack_Compiler.xcdatamodel */,
+			);
+			currentVersion = 9F2AD1DB23D77A4A00572114 /* Jack_Compiler.xcdatamodel */;
+			path = Jack_Compiler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F2AD1CB23D77A4A00572114 /* Project object */;
+}
