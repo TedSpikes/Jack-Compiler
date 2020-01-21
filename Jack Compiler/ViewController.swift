@@ -9,7 +9,21 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBAction func selectCodeFile(_ sender: NSButton) {
+        let openPanel = NSOpenPanel()
+        openPanel.allowsMultipleSelection = false
+        openPanel.canChooseDirectories    = false
+        openPanel.canCreateDirectories    = false
+        openPanel.canChooseFiles          = true
+        guard let currentWindow = sender.window else {fatalError("How?")}
+        openPanel.beginSheetModal(for: currentWindow, completionHandler: { (result) -> Void in
+            if result == .OK {
+                let fileContents = try! String(contentsOf: openPanel.url!)
+                print(fileContents)
+            }
+        })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
